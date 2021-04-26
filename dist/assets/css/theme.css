@@ -17372,7 +17372,7 @@ a.badge-soft-indigo:focus {
 .btn-primary[type]:hover,
 .btn-primary[type]:focus,
 .btn-primary[type]:active {
-  box-shadow: 0 4px 11px rgba(55, 125, 255, 0.35);
+  box-shadow: 0 4px 11px rgba(225, 115, 80, 0.35);
 }
 
 .btn-primary:not(label.btn),
