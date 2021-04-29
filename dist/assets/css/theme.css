@@ -7258,6 +7258,15 @@ a.close.disabled {
   background-color: var(--brand-blue) !important;
 }
 
+.bg-brand-blue {
+  background-color: var(--brand-blue);
+}
+
+.discover-card .bg-brand-blue:hover,
+.discover-card .bg-brand-blue:focus {
+  background-color: #1b285c;
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
@@ -7302,6 +7311,15 @@ button.bg-info:focus {
   background-color: #f5ca99 !important;
 }
 
+.bg-brand-cyan {
+  background-color: var(--brand-cyan);
+}
+
+.implement-card .bg-brand-cyan:hover,
+.implement-card .bg-brand-cyan:focus {
+  background-color: #7ec5eb;
+}
+
 a.bg-warning:hover,
 a.bg-warning:focus,
 button.bg-warning:hover,
@@ -7333,6 +7351,15 @@ button.bg-light:focus {
 
 .bg-dark {
   background-color: #21325b !important;
+}
+
+.bg-brand-purple {
+  background-color: var(--brand-purple);
+}
+
+.evaluate-card .bg-brand-purple:hover,
+.evaluate-card .bg-brand-purple:focus {
+  background-color: #2b3d83;
 }
 
 a.bg-dark:hover,
