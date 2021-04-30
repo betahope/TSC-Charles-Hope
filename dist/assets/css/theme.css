@@ -517,6 +517,16 @@ h6,
   }
 }
 
+.system-goal-text {
+  height: 9rem;
+}
+
+@media (max-width: 991.98px) {
+  .system-goal-text {
+    height: 12rem;
+  }
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
