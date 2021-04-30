@@ -7363,6 +7363,10 @@ button.bg-light:focus {
   background-color: #21325b !important;
 }
 
+.bg-brand-yellow {
+  background-color: var(--brand-yellow);
+}
+
 .bg-brand-purple {
   background-color: var(--brand-purple);
 }
