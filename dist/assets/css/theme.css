@@ -12608,6 +12608,10 @@ a.text-warning:focus {
   color: #eea653 !important;
 }
 
+.text-brand-purple {
+  color: var(--brand-purple);
+}
+
 .text-danger {
   color: #ed4c78 !important;
 }
