@@ -35,6 +35,35 @@
           }'>
 
     <div class="header-section">
+      <!-- Topbar -->
+      <div class="container header-hide-content pt-2">
+        <div class="d-flex align-items-center">
+          <div class="ml-auto">
+            <!-- Jump To -->
+            <div class="hs-unfold d-sm-none mr-2">
+              <a class="js-hs-unfold-invoker dropdown-nav-link dropdown-toggle d-flex align-items-center" href="javascript:;"
+                 data-hs-unfold-options='{
+                    "target": "#jumpToDropdown",
+                    "type": "css-animation",
+                    "event": "hover",
+                    "hideOnScroll": "true"
+                   }'>
+                Jump to
+              </a>
+
+              <div id="jumpToDropdown" class="hs-unfold-content dropdown-menu">
+                <a class="dropdown-item" href="./dist/page-faq.html">Help</a>
+                <a class="dropdown-item" href="./dist/page-contacts-agency.html">Contacts</a>
+              </div>
+            </div>
+            <!-- End Jump To -->
+          </div>
+
+          
+        </div>
+      </div>
+      <!-- End Topbar -->
+
       <div id="logoAndNav" class="container">
         <!-- Nav -->
         <nav class="js-mega-menu navbar navbar-expand-lg">
@@ -69,61 +98,22 @@
             <div class="navbar-body header-abs-top-inner">
               <ul class="navbar-nav">
                 <!-- Home -->
-                <li class="hs-has-mega-menu navbar-nav-item">
-                  <a id="homeMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle active" href="javascript:;" aria-haspopup="true" aria-expanded="false">Landings</a>
+                <li><a class="nav-link active" href="index.html">Home</a></li>
+                
+                <!-- Code for JS to work -->
+                <li class="hs-has-mega-menu navbar-nav-item d-none">
+                  <a class="hs-mega-menu-invoker nav-link active" href="javascript:;">Landings</a>
 
                   <!-- Home - Mega Menu -->
                   <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="homeMegaMenu">
                     <div class="row no-gutters">
                       <div class="col-lg-6">
-                        <!-- Banner Image -->
-                        <div class="navbar-banner" style="background-image: url(./dist/assets/img/750x750/img1.jpg);">
-                          <div class="navbar-banner-content">
-                            <div class="mb-4">
-                              <span class="h2 d-block text-white">Branding Works</span>
-                              <p class="text-white">Experience a level of our quality in both design &amp; customization works.</p>
-                            </div>
-                            <a class="btn btn-primary btn-sm transition-3d-hover" href="#">Learn More <i class="fas fa-angle-right fa-sm ml-1"></i></a>
-                          </div>
-                        </div>
-                        <!-- End Banner Image -->
-                      </div>
-
-                      <div class="col-lg-6">
-                        <div class="row mega-menu-body">
-                          <div class="col-sm-6 mb-3 mb-sm-0">
-                            <span class="d-block h5">Classic</span>
-                            <a class="dropdown-item active" href="./dist/index.html">Agency</a>
-                            <a class="dropdown-item " href="./dist/landing-classic-analytics.html">Analytics <span class="badge badge-primary badge-pill ml-2">Hot</span></a>
-                            <a class="dropdown-item " href="./dist/landing-classic-studio.html">Studio</a>
-                            <a class="dropdown-item " href="./dist/landing-classic-marketing.html">Marketing</a>
-                            <a class="dropdown-item " href="./dist/landing-classic-advertisement.html" target="_blank">Advertisement <span class="badge badge-primary badge-pill ml-2">Hot</span></a>
-                            <a class="dropdown-item " href="./dist/landing-classic-consulting.html">Consulting</a>
-                            <a class="dropdown-item " href="./dist/landing-classic-portfolio.html">Portfolio</a>
-                            <a class="dropdown-item " href="./dist/landing-classic-software.html">Software</a>
-                            <a class="dropdown-item " href="./dist/landing-classic-business.html">Business</a>
-                          </div>
-
-                          <div class="col-sm-6">
-                            <span class="d-block h5">App</span>
-                            <div class="mb-3">
-                              <a class="dropdown-item " href="./dist/landing-app-ui-kit.html">UI Kit</a>
-                              <a class="dropdown-item " href="./dist/landing-app-saas.html">SaaS</a>
-                              <a class="dropdown-item " href="./dist/landing-app-workflow.html">Workflow</a>
-                              <a class="dropdown-item " href="./dist/landing-app-payment.html">Payment</a>
-                              <a class="dropdown-item " href="./dist/landing-app-tool.html">Tool</a>
-                            </div>
-
-                            <span class="d-block h5">Onepages</span>
-                            <a class="dropdown-item " href="./dist/landing-onepage-corporate.html">Corporate</a>
-                            <a class="dropdown-item " href="./dist/landing-onepage-saas.html">SaaS <span class="badge badge-primary badge-pill ml-2">Hot</span></a>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
                   <!-- End Home - Mega Menu -->
                 </li>
+                  <!-- End of Code for JS to work -->
                 <!-- End Home -->
 
                 <!-- Pages -->
