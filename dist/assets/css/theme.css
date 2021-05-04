@@ -13694,6 +13694,10 @@ button:focus {
   color: #677788;
 }
 
+.header .nav-link:hover {
+  color: var(--brand-blue);
+}
+
 .header .nav-link-toggle {
   display: -ms-flexbox;
   display: flex;
