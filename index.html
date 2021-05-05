@@ -717,6 +717,15 @@
     });
   </script>
 
+  <!-- Email JS -->
+  <script>
+    (function () {
+      emailjs.init("user_ID");
+    })();
+  </script>
+  <script src="email.js"></script>
+  <!-- End Emails JS -->
+
   <!-- IE Support -->
   <script>
     if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="./dist/assets/vendor/babel-polyfill/dist/polyfill.js"><\/script>');
