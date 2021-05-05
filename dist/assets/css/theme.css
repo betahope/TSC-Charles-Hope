@@ -515,6 +515,10 @@ h6,
   .hero-message {
     height: 10.5rem;
   }
+
+  .experience-message {
+    height: 10rem;
+  }
 }
 
 .system-goal-text {
