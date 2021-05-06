@@ -1,9 +1,10 @@
 function sendMail(contactForm) {
   emailjs
-    .send("gmail", "ms2_project", {
-      from_name: contactForm.name.value,
-      from_email: contactForm.emailaddress.value,
-      contact_message: contactForm.mainmessage.value,
+    .send("gmail", "tsc_form", {
+      from_first_name: contactForm.firstName.value,
+      from_last_name: contactForm.lastName.value,
+      from_email: contactForm.emailAddress.value,
+      contact_message: contactForm.message.value,
     })
     .then(
       function (response) {
@@ -14,7 +15,7 @@ function sendMail(contactForm) {
       }
     );
 
-  document.getElementById("contactForm").reset();
+  // document.getElementById("contactForm").reset();
 
   alert("Thanks! I'll get back to you soon. Have a good one!");
 
