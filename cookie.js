@@ -12,9 +12,9 @@ window.cookieconsent.initialise({
       },
       "position": "bottom-right",
       "content": {
-        "message": "A cookie is a small text file containing information that this site transfers to your computer’s hard disk for record-keeping purposes and allows us to analyse traffic patterns. It does not contain chocolate chips, you cannot eat it, and there is no special hidden jar.",
-        "dismiss": "Sounds good!",
-        "link": "Learn more",
-        "href": "www.thesystemconsultant.com/cookie-policy.html"
+        "message": "This website uses cookies to enhance the user experience.",
+        "dismiss": "Accept Cookies",
+        "link": "Read our cookie policy for more info.",
+        "href": "https://www.thesystemconsultant.com/cookie-policy.html"
       }
     });

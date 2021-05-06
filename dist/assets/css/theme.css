@@ -25346,3 +25346,7 @@ a:hover .text-hover-primary {
 /*------------------------------------
   File for your custom SCSS style
 ------------------------------------*/
+
+.cc-btn {
+  border-radius: 5px;
+}
