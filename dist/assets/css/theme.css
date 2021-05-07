@@ -3514,6 +3514,11 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 
+.card .btn-link:hover {
+  color: var(--brand-purple);
+  text-decoration: none;
+}
+
 .btn-link:focus,
 .btn-link.focus {
   text-decoration: none;
@@ -18952,7 +18957,7 @@ label.btn {
 
 .card-btn-toggle {
   display: inline-block;
-  color: #377dff;
+  color: var(--brand-purple);
 }
 
 .card-btn-toggle-default {
