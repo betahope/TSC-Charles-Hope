@@ -25374,5 +25374,21 @@ footer .btn-white:hover {
 }
 
 .contact-us .display-4 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+  .contact-us .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+}
+
+.years-experience .display-4 {
+  font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+  .years-experience .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
 }
