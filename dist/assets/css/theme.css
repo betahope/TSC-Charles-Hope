@@ -25393,6 +25393,14 @@ footer .btn-white:hover {
   color: var(--brand-purple);
 }
 
+.text-brand-blue {
+  color: var(--brand-blue);
+}
+
+.text-brand-yellow {
+  color: var(--brand-yellow);
+}
+
 .text-brand-red {
   color: var(--brand-red);
 }
@@ -25403,4 +25411,10 @@ a.text-brand-red:hover {
 
 .bg-vivaireland {
   background-color: #236a26;
+}
+
+@media (max-width: 991.98px) {
+  .customer-story .story-badge {
+    margin-top: 3rem;
+  }
 }
