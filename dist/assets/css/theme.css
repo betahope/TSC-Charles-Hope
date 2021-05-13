@@ -17184,7 +17184,7 @@ a.badge-soft-danger:focus {
 /* light soft */
 .badge-soft-light {
   color: #f7faff;
-  background-color: rgba(247, 250, 255, 0.1);
+  background-color: rgba(247, 250, 255, 0.3);
 }
 
 a.badge-soft-light:hover,
@@ -25399,4 +25399,8 @@ footer .btn-white:hover {
 
 a.text-brand-red:hover {
   color: var(--brand-blue);
+}
+
+.bg-vivaireland {
+  background-color: #236a26;
 }
