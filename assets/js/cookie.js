@@ -1,13 +1,13 @@
 window.cookieconsent.initialise({
       "palette": {
         "popup": {
-          "background": "#3c404d",
-          "text": "#d6d6d6"
+          "background": "#24305e",
+          "text": "#efefef"
         },
         "button": {
           "background": "transparent",
-          "text": "#8bed4f",
-          "border": "#8bed4f"
+          "text": "#f8e9a1",
+          "border": "#f8e9a1"
         }
       },
       "position": "bottom-right",
@@ -15,6 +15,6 @@ window.cookieconsent.initialise({
         "message": "This website uses cookies to enhance the user experience. By using this site you agree to the use of cookies.",
         "dismiss": "Accept Cookies",
         "link": "Read our cookie policy for more info.",
-        "href": "https://www.thesystemconsultant.com/cookie-policy.html"
+        "href": "https://www.thesystemconsultant.com/cookie-policy"
       }
     });

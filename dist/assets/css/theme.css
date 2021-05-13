@@ -12617,10 +12617,6 @@ a.text-warning:focus {
   color: #eea653 !important;
 }
 
-.text-brand-purple {
-  color: var(--brand-purple);
-}
-
 .text-danger {
   color: #ed4c78 !important;
 }
@@ -25391,4 +25387,16 @@ footer .btn-white:hover {
   .years-experience .display-4 {
     font-size: calc(1.475rem + 2.7vw);
   }
+}
+
+.text-brand-purple {
+  color: var(--brand-purple);
+}
+
+.text-brand-red {
+  color: var(--brand-red);
+}
+
+a.text-brand-red:hover {
+  color: var(--brand-blue);
 }
