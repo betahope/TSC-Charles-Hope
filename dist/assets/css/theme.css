@@ -25418,3 +25418,13 @@ a.text-brand-red:hover {
     margin-top: 3rem;
   }
 }
+
+.business-hours {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 5px;
+}
+
+.business-hours:hover {
+  color: #fff;
+}
