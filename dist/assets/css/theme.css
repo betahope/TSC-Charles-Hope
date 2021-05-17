@@ -20430,7 +20430,7 @@ label.btn {
 .go-to:hover,
 .go-to:focus:hover {
   color: #fff;
-  background-color: #377dff;
+  background-color: var(--brand-blue);
   opacity: 1;
 }
 
