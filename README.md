@@ -10,4 +10,4 @@ You can contact us via:
 - [hello@thesystemconsultant.com](mailto:hello@thesystemconsultant.com)
 - [+353 21 20 21 111](tel:+353212021111)
 
-Our business hours are from **Monday to Friday, 9 AM to 6 PM** Irih time.
+Our business hours are from **Monday to Friday, 9 AM to 6 PM** Irish time.
