@@ -12,9 +12,9 @@ window.cookieconsent.initialise({
       },
       "position": "bottom-right",
       "content": {
-        "message": "This website uses cookies to enhance the user experience. By using this site you agree to the use of cookies.",
+        "message": "This website uses cookies to enhance your experience. By using it, you agree to the use of cookies.",
         "dismiss": "Accept Cookies",
-        "link": "Read our cookie policy for more info.",
+        "link": "Check our cookie policy for more info.",
         "href": "https://www.thesystemconsultant.com/cookie-policy"
       }
     });
