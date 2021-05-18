@@ -8,6 +8,6 @@ You can contact us via:
 
 - <a href="https://www.thesystemconsultant.com/index#contact" target="_blank">Our contact form</a>
 - <a href="mailto:hello@thesystemconsultant.com" target="_blank">hello@thesystemconsultant.com</a>
-- <a href="tel:+353212021111" target="_blank">+353 21 20 21 111</a>
+- <a href="tel:+353212021111" target="_blank">+353 21 202 1111</a>
 
 Our business hours are from **Monday to Friday, 9 AM to 6 PM** Irish time.
