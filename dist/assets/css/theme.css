@@ -508,12 +508,12 @@ h6,
 }
 
 .hero-message {
-  height: 16.5rem;
+  height: 12.5rem;
 }
 
 @media (max-width: 991.98px) {
   .hero-message {
-    height: 10.5rem;
+    height: 7.5rem;
   }
 
   .experience-message {
