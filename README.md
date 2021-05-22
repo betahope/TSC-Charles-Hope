@@ -6,7 +6,7 @@ Live site at: <a href="https://www.thesystemconsultant.com/" target="_blank">htt
 
 You can contact us via:
 
-- <a href="https://www.thesystemconsultant.com/index#contact" target="_blank">Our contact form</a>
+- <a href="https://www.thesystemconsultant.com//#contact" target="_blank">Our contact form</a>
 - <a href="mailto:hello@thesystemconsultant.com" target="_blank">hello@thesystemconsultant.com</a>
 - <a href="tel:+353212021111" target="_blank">+353 21 202 1111</a>
 
