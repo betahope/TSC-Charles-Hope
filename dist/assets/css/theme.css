@@ -25438,3 +25438,7 @@ a.text-brand-red:hover {
 #pills-one-code-features .text-brand-red:hover {
   color: #fff;
 }
+
+.pricing .card {
+  border-width: 1px;
+}
