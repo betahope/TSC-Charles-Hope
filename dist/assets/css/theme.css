@@ -2762,7 +2762,7 @@ textarea.form-control.is-invalid {
 
 .btn {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 400;
   color: #677788;
   text-align: center;
   vertical-align: middle;
@@ -25445,4 +25445,10 @@ a.text-brand-red:hover {
 
 .leaflet-radius {
   border-radius: 10px;
+}
+
+.btn-wider {
+  min-width: 16rem;
+  padding: 0.85rem 1rem;
+  font-size: 1.1rem;
 }
