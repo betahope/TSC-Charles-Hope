@@ -7315,6 +7315,11 @@ button.bg-info:focus {
   background-color: #7ec5eb;
 }
 
+form .bg-brand-cyan:hover,
+form .bg-brand-cyan:focus {
+  box-shadow: 0 4px 11px rgb(168 208 230 / 35%);
+}
+
 a.bg-warning:hover,
 a.bg-warning:focus,
 button.bg-warning:hover,
