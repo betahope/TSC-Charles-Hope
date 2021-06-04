@@ -507,30 +507,6 @@ h6,
   }
 }
 
-.hero-message {
-  height: 12.5rem;
-}
-
-@media (max-width: 991.98px) {
-  .hero-message {
-    height: 7.5rem;
-  }
-
-  .experience-message {
-    height: 10rem;
-  }
-}
-
-.system-goal-text {
-  height: 9rem;
-}
-
-@media (max-width: 991.98px) {
-  .system-goal-text {
-    height: 13rem;
-  }
-}
-
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -25450,4 +25426,33 @@ a.text-brand-red:hover {
 .btn-wider {
   min-width: 16rem;
   font-size: 1.1rem;
+}
+
+.hero-message {
+  height: 10.5rem;
+}
+
+@media (max-width: 991.98px) {
+  .hero-message {
+    height: 6.5rem;
+  }
+
+  .experience-message {
+    height: 10rem;
+  }
+
+  .btn-wider {
+    min-width: 15rem;
+    font-size: 1rem;
+  }
+}
+
+.system-goal-text {
+  height: 9rem;
+}
+
+@media (max-width: 991.98px) {
+  .system-goal-text {
+    height: 13rem;
+  }
 }
