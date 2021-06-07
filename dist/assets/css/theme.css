@@ -7315,6 +7315,15 @@ button.bg-info:focus {
   background-color: #7ec5eb;
 }
 
+.bg-brand-dark-cyan {
+  background-color: #7ec5eb;
+}
+
+.implement-card .bg-brand-dark-cyan:hover,
+.implement-card .bg-brand-dark-cyan:focus {
+  background-color: #55b5e9;
+}
+
 form .bg-brand-cyan:hover,
 form .bg-brand-cyan:focus {
   box-shadow: 0 4px 11px rgb(168 208 230 / 35%);
