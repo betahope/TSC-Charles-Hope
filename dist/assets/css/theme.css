@@ -25443,7 +25443,7 @@ a.text-brand-red:hover {
   }
 
   .experience-message {
-    height: 10rem;
+    height: 4rem;
   }
 
   .btn-wider {
@@ -25459,5 +25459,17 @@ a.text-brand-red:hover {
 @media (max-width: 991.98px) {
   .system-goal-text {
     height: 13rem;
+  }
+}
+
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@media (max-width: 1200px) {
+  .display-5 {
+    font-size: calc(1.375rem + 1.5vw);
   }
 }
