@@ -1,5 +1,9 @@
 function sendMail(contactForm) {
-  if ( document.getElementById("firstName").value && document.getElementById("emailAddress").value && document.getElementById("message").value ) {
+  let userEmail = document.getElementById("emailAddress").value;
+  let mailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  let emailValidate = userEmail.match(mailFormat);
+
+  if ( document.getElementById("firstName").value && emailValidate && document.getElementById("message").value ) {
     emailjs
       .send("gmail", "tsc_form", {
         from_first_name: contactForm.firstName.value,
